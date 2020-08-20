@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eyfad Arabic text recognizer</title>
+  <link rel="icon" href="eyfadLogo.png">
+  <!--Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Icons  -->
+  <script src="https://kit.fontawesome.com/adac5f140b.js" crossorigin="anonymous"></script>
+
+  <!-- Custom Stylesheets link tags -->
+  <link rel="stylesheet" href="Stylesheets/master.css">
+  <link rel="stylesheet" href="Stylesheets/uploading_sheet.css">
+
+
+  <!-- team -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-image: linear-gradient(to top, #19fcb8 0%, #35d0ba 100%);
+      position: static;
+
+    }
+
+
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-image: linear-gradient(to top, #19fcb8 0%, #35d0ba 100%);
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+
+    .container {
+      padding: 80px 120px;
+    }
+
+    .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      position: static;
+      opacity: 0.7;
+    }
+
+    .person:hover {
+      background-image: linear-gradient(to top, #19fcb8 0%, #35d0ba 100%);
+      border-radius: 9rem;
+    }
+
+    .selector-for-some-widget {
+      box-sizing: content-box;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="#home" class="colored-section">
+
+             <!-- navigation bar -->
+             <nav style="justify-content: flex-start; " class="navbar navbar-expand-sm navbar-dark">
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="nav justify-content-end">
+                        <li class="nav-link active">
+                             <a style="color: white; font-family: 'Cairo', sans-serif;
+         font-size: 30px;" class="nav-link" href="volunteer.php">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                             <a style="color: white; font-family: 'Cairo', sans-serif;
+         font-size: 30px;" class="nav-link" href="volunteer.php#about-us">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                             <a style="color: white; font-family: 'Cairo', sans-serif;
+         font-size: 30px;" class="nav-link" href="volunteer.php#contact-us">اتصل بنا</a>
+                        </li>
+                        <li class="nav-item">
+                             <a style="color: white; font-family: 'Cairo', sans-serif;
+         font-size: 30px;" class="nav-link" href="image.php">رفع الصور </a>
+                        </li>
+                        <li class="nav-item">
+                                 <a style="color: white; font-family: 'Cairo', sans-serif;
+                  font-size: 30px;" class="nav-link" href="show_template_static.html">النماذج</a>
+                        </li>
+                        <li class="nav-item">
+                          <a style="color: white; font-family: 'Cairo', sans-serif;
+      font-size: 30px;" class="nav-link" href="UploadingPage.html">رفع الملف </a>
+                     </li>
+                        <li class="nav-item">
+                             <a style="color: white; font-family: 'Cairo', sans-serif;
+         font-size: 30px;" class="nav-link" href="login.php">تسجيل الخروج</a>
+                        </li>
+
+                   </ul>
+              </div>
+              <a class="navbar-brand" href="#"><img src="eyfadLogo.png" alt="logo" height="150" width="150" /> </a>
+         </nav>
+
+  </section>
+
+  <section id="#upload" class="container-padding">
+    <div class="words_container">
+      <table class="words_table">
+        <td>
+          <ul>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+            <li>كلمة عربية</li>
+          </ul>
+        </td>
+      </table>
+    </div>
+    <div class="upload_container_border">
+      <div class="upload_container">
+        <form action="index.html" method="post">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col">
+                <label for="real_file">رفع الملف:</label>
+              </div>
+              <div class="col" align="left">
+
+                <input id="real_file" type="file" name="myFile" hidden="hidden">
+
+                <span id="custom_text" class="path-text">لم يتم رفع أي ملف حتى الآن!</span>
+                <i id="custom_button" class="fas fa-upload upload_icon"></i>
+
+                <script type="text/javascript">
+                  const realFileBtn = document.getElementById("real_file");
+                  const customBtn = document.getElementById("custom_button");
+                  const customText = document.getElementById("custom_text");
+
+                  customBtn.addEventListener("click", function() {
+                    realFileBtn.click();
+                  });
+
+                  realFileBtn.addEventListener("change", function() {
+                    if (realFileBtn.value) {
+                      customText.innerHTML = realFileBtn.value;
+                    } else {
+                      customText.innerHTML = "لم يتم رفع أي ملف حتى الآن!"
+                    }
+                  });
+                </script>
+
+                <button class="btn btn-info btn-lg upload_button" onclick="myFunction()">رفع</button>
+
+                <!-- <script>
+                function myFunction() {
+                  var x = document.getElementById("myFile");
+                  x.disabled = true;
+                }
+              </script> -->
+              </div>
+
+            </div>
+          </div>
+        </form>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="#contact-us" class="contact-us-color contact-us-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <p class="contact-text">اتصل بنا</p>
+        </div>
+      </div>
+      <div id="contact-us" class="row">
+        <div class="col-12">
+          <a href="saudidata2030@gmail.com"><i class="fas fa-envelope-open-text icons"></i></a>
+          <a href="https://twitter.com/Eyfad3"><i class="fab fa-twitter icons"></i></a>
+          <a href="https://sa.linkedin.com/in/saudidata2030"><i class="fab fa-linkedin icons"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

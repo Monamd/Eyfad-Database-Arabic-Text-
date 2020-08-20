@@ -1,0 +1,56 @@
+.words_container {
+  background-color: #d4f3ef;
+  /* border-style: solid;
+  border-color: #63b7af;
+  border-width: thin; */
+  border-radius: 2rem;
+  display: inline-block;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.words_table {
+  width: 80rem;
+  line-height: 4.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.upload_container_border {
+  border-style: solid;
+  border-width: thin;
+  border-color: #63b7af;
+
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 1% 5%;
+
+  border-radius: 2rem;
+
+  text-align: right;
+}
+
+.upload_container {
+  display: inline-block;
+  width: 80rem;
+}
+
+.path-text {
+  margin-left: 2rem;
+}
+
+.upload_icon {
+  color: #dddddd;
+  margin: 0 2%;
+}
+
+.upload_icon:hover {
+  color: #0f4c81;
+}
+
+.upload_button {
+  width: 10rem;
+  border-radius: 2rem;
+}
